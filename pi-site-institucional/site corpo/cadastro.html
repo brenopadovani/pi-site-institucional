@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styletotal.css">
+    
+
+        <div class="header">
+            <div class="container">
+                <h1 id="logotipo"> <img src="logo final.png" style="height: 50px;"></h1>
+                <ul class="navbar">
+                    <li> <a href="sitetotal.html">Inicio</a></li>
+                    <li>Simulador</li>
+                    <li>Cadastro</li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        
+            <div class="banner">
+                    <div class="form_login">
+                    <div>   
+                    <h1>Cadastre-se no Tomato π</h1>
+                </div>
+        <div>
+        Nome: <input id = "ipt_nome">
+        </div>
+        <div>
+        Sobrenome: <input id = "ipt_sobre">
+        </div>
+        <div>
+        E-mail: <input>
+        </div>
+        <div>
+        Usuário: <input id = "ipt_user">
+        </div>
+            <div>
+            Senha: <input id = "ipt_senha" type = "password">
+            </div>               
+        <div>
+        <br><button onclick="cadastrar()">Cadastrar</button>
+        </div>
+                
+         <div class="footer">
+            Site desenvolvido por um aluno Bandtec Digital School - 2021
+        
+                    </div>
+                    </div>
+                    </div>
+</body>
+</html>
+<script>
+
+function cadastrar() {
+
+    var nome = String(ipt_nome.value) + ' ' + String(ipt_sobre.value);
+
+    if (String(ipt_user.value) == 'tomatopi' && ipt_senha.value == 'tomato123') {
+        alert(`Olá ${nome}!`);
+    }else {
+        alert("Cadastro inválido");
+    }
+
+}
+
+</script>

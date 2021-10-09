@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: red 2px solid;
+}
+h1{
+    color: red;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;   
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0)
+}
+.navbar{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+.navbar li {
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+.navbar li a{
+ text-decoration: none;
+ color: rgb(0, 0, 0) ;
+}
+.navbar .active{
+    font-weight: bolder;
+}
+.banner{
+    height: 500px;
+    background-image: url(banner\ final.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito{
+    height: 450px;
+}
+.proposito .container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.proposito .container h2{
+    background-color:white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.proposito .container .mvv div h3{
+font-weight: bolder;
+margin: 25px 0;
+
+}
+.proposito .container .mvv div img{
+    height: 100px;
+    width: 100px;
+}
+.proposito .container .mvv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.proposito .container .mvv div{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(141, 0, 0);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    color: white;  
+}
+.banner .form_login{
+background-color: white;
+width: 30%;
+height: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+.banner .form_login h2 {
+    color: red;
+}
+.banner .form_login div {
+    display: flex;
+    flex-direction: column;
+}
+.banner .form_login div input{
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 10px;
+}
+.banner .form_login button {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
