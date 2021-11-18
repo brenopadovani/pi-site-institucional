@@ -3,7 +3,8 @@ body {
     padding: 0;
     font-family: 'Exo 2';
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    background-color: black;
+    background-color: #E5E5E5;
+    
 }
 
 .container {
@@ -12,20 +13,20 @@ body {
 }
 
 .header {
-    color: #32B9CD;
-    border-bottom: 3px solid #32B9CD;
-    /* border: 3px solid yellow; */
+    color: #2f9600;
+    border-bottom: 3px solid #2f9600;
+    
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
-    /* border: 3px solid pink; */
+    
 }
 
 .header a {
     text-decoration: none;
-    color: #E3B062;
+    color: #007910;
 }
 
 .agora {
@@ -38,46 +39,44 @@ body {
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    color: #E3B062;
-    /* border: 3px solid green; */
+    color: #2f9600;
+   
 }
 
 /* BANNER */
 
 .banner {
-    height: 500px;
+    height: 900px;
     color: white;
-    /* border: 3px solid yellow; */
-    background-image: url(".././assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-image:url(http://m.lance.com.br/files/admin_slider_thumbnail/uploads/2015/12/07/5665a3809256e.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner .container {
-    /* border: 3px solid green; */
     height: 500px;
     display: flex;
     align-items: center;
 }
 
 .banner p {
-    /* border: 3px solid cyan; */
     width: 50%;
     margin: 0;
     padding: 0;
-    width: 280px;
-    font-size: 36px;
-    margin-left: 350px;
+    width: 300px;
+    font-size: 45px;
+    margin-right: 300px;
+    color: #000000;
 }
 
 .banner span {
     font-weight: 800;
 }
 
-/* missao visao valores */
+
 
 .social {
     background-color: #E5E5E5;
-    /* border: 3px solid yellowgreen; */
     padding: 50px 0;
 }
 
@@ -85,12 +84,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    /* border: 3px solid blue; */
+    
 }
 
-/* usar este bloco para explicar margin e padding*/
+
 .social .titulo {
-    /* border: 3px solid pink; */
+    
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -104,14 +103,14 @@ body {
     align-self: center; 
     justify-self: center;
     text-align: center;
-    color: #E6005A;
+    color: #097200;
     margin: 0;
-    /* border: 3px solid orange; */
+    
 }
 
 .social .boxes {
     display: flex;
-    /* border: 3px solid blue; */
+   
 }
 
 .social .box {
@@ -121,7 +120,7 @@ body {
     flex-direction: column;
     text-align: center;
     width: 33%;
-    /* border: 3px solid yellow; */
+    
 }
 
 .social .box img {
@@ -130,16 +129,16 @@ body {
 }
 
 .social .box h4 {
-    color: #E6005A;
+    color: #2f9600;
     margin-top: 30px;
 }
 
 /* FOOTER */
 
 .footer {
-    background-color: #32B9CD;
+    background-color: #2f9600;
     height: 150px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     display: flex;
@@ -175,11 +174,11 @@ h4 {
 }
 
 .banner-login {
-    color: #E6005A;
+    color: #000000;
 }
 
 .banner-login .card {
-    background-color: #E5E5E5;
+    background-color: #2f9600;
     height: 450px;
     width: 400px;
     display: flex;
@@ -208,7 +207,7 @@ button {
 
 input {
     height: 30px;
-    border: 2px solid #E6005A;
+    border: 2px solid #2f9600;
     border-radius: 10px;
 }
 
@@ -219,8 +218,8 @@ input {
     font-weight: 600;
     font-size: 18px;
     padding: 10px 15px;
-    color: white;
-    background-color: #E6005A;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     width: 120px;
     align-self: center;
 }
@@ -268,7 +267,7 @@ form {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border-right: 3px solid #32B9CD;
+    border-right: 4px solid #2f9600;
     background-color: #212124;
     /* border: 3px solid pink; */
 }
@@ -284,7 +283,7 @@ form {
 }
 
 .header-left h1 {
-    color: #32B9CD;
+    color: #2f9600;
 }
 
 .hello {
@@ -294,7 +293,7 @@ form {
 }
 
 .hello h3 {
-    color: #E3B062;
+    color: #2f9600;
     font-weight: 300;
     font-size: 1.2rem;
 }
@@ -306,7 +305,7 @@ form {
 .btn-nav {
     width: 40%;
     color: white;
-    background-color: #E6005A;
+    background-color: #2f9600;
     border-radius: 5px;
     text-align: center;
     padding: 2% 5%;
@@ -315,14 +314,14 @@ form {
 .btn-nav-white {
     width: 40%;
     background-color: white;
-    border: 3px solid #E6005A;
+    border: 3px solid #2f9600;
     border-radius: 5px;
     text-align: center;
     padding: 2% 5%;
 }
 
 .btn-nav-white h3 {
-    color: #E6005A;
+    color: #2f9600;
     padding: 0;
     margin: 0;
 }
@@ -337,8 +336,8 @@ form {
     margin: 0;
     padding: 0;
     width: 20%;
-    background-color: #32B9CD;
-    color: white;
+    background-color: white;
+    color: #2f9600;
     border-radius: 10px;
     text-align: center;
     padding: 10px 15px;
@@ -347,6 +346,18 @@ form {
 }
 
 /* pagina extra - simulador */
-.simulador {
-    color: white;
+.sobre {
+    color: rgb(0, 0, 0);
+}
+
+.cardmedio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#2f9600 ;
+}
+.cardmedio select{
+    border-radius: 10px;
+    height: 35px;
 }
