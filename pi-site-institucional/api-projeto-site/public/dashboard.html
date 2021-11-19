@@ -21,57 +21,62 @@
 
 </head>
 
-<body onload="validarSessao(),  obterDadosGrafico(1)">
-  <div class="janela">
-    <div class="header-left">
+<body onload="validarSessao()">
+  <!-- <div class="janela"> -->
+  <div class="header-left">
 
 
-      <div class="header">
-        <div class="container">
-          <h1>FutNews</h1>
-
-        </div>
-      </div>
-
-      <div class="hello">
-        <h3>Olá, <span id="b_usuario"></span>!</h3><br>
-        <br><h3>Seu time é:<span id="b_times"></span></h3>
-      </div>
-
-      <div class="btn-nav-white">
-        <a href="./simulador.html">
-          <h3>Notícias</h3>
-        </a>
-      </div>
-
-      <div class="btn-nav">
-
-        <h3>Gráficos</h3>
+    <div class="header">
+      <div class="container">
+        <h1>FutNews</h1>
 
       </div>
+    </div>
 
-      <div class="btn-nav-white">
-        <a href="./aovivo.html">
-          <h3>Rodada do Brasileirão</h3>
-        </a>
-      </div>
+    <div class="hello">
+      <h3>Olá, <span id="b_usuario"></span>!</h3><br>
+    </div>
+    <div class="time">
+      <br>
+      <h3>Seu time é:<img id="b_times" src="" style="width: 30px; height: 30px;"></h3>
+    </div>
+    <div class="btn-nav-white">
+      <a href="./simulador.html">
+        <h3>Notícias</h3>
+      </a>
+    </div>
 
-      <div class="btn-logout" onclick="limparSessao()">
-        <h3>Sair</h3>
-      </div>
+    <div class="btn-nav">
+
+      <h3>Gráficos</h3>
 
     </div>
 
-    <div class="dash">
-      <div class="btns-dash">
-        
-      </div>
+    <div class="btn-nav-white">
+      <a href="./aovivo.html">
+        <h3>Rodada do Brasileirão</h3>
+      </a>
+    </div>
+
+    <div class="btn-logout" onclick="limparSessao()">
+      <h3>Sair</h3>
+    </div>
+
+  </div>
+
+    <div class="graph">
+   
+
+
+        <img src="brasil.gif" style="width: 100%;height: 100%;">
+
+
 
     </div>
+  </div>
   </div>
 
 
 </body>
 
 </html>
-

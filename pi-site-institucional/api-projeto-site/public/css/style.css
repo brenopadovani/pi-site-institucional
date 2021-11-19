@@ -361,3 +361,29 @@ form {
     border-radius: 10px;
     height: 35px;
 }
+.time{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.graph{
+display: flex;
+justify-content: center;
+margin-left: 300px;
+width: 78%;
+height: 200%;
+}
+
+.simulacao{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ .jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
